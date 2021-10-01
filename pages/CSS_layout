@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Об оформлении на языке CSS</title>
+</head>
+<body>
+    <h1>Об оформлении CSS</h1>
+    <ul>
+        <li>
+            <a href="../Index.html">Главная страница</a> 
+        </li>
+        <li>
+            <a href="html_layout.html">HTML верстка</a> 
+        </li>
+        <li>
+            <a href="JS program_layout.html">JS программирование</a>
+        </li>
+    </ul></a>
+</body>
+</html>
