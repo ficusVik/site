@@ -20,6 +20,7 @@ body{
     
 }
 td.smth2{
-    color:rgb(0, 0, 0)
+    color:rgb(0, 0, 0);
+    font-style: Italic;
     font-weight: 300;
 }
