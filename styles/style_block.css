@@ -16,13 +16,10 @@ div{
     text-align: center;
 }
 .smth{
-    margin-bottom: 20px;
-  margin-right: 20px;
-  padding: 10px;
+    
   display: inline-block;
-  vertical-align: bottom;
-  box-sizing: border-box;
-
+ width: auto;
+box-sizing:border-box;
 }
 .footer{
     text-align: center;
