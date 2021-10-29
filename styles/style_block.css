@@ -1,0 +1,29 @@
+body{
+    width:960px;
+    margin:0 auto;
+}
+div{
+    border: 1px solid rgb(15, 15, 15);
+    padding:5px 15px;
+    width: auto;
+}
+.header{
+    border-radius: 10px 10px 0px 0px;
+    margin-top:0px;
+    width:auto;
+    height:auto;
+    padding: 30px;
+    text-align: center;
+}
+.smth{
+    margin-bottom: 20px;
+  margin-right: 20px;
+  padding: 10px;
+  display: inline-block;
+  vertical-align: bottom;
+  box-sizing: border-box;
+
+}
+.footer{
+    text-align: center;
+}
