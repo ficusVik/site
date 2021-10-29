@@ -1,11 +1,11 @@
 body{
-    width:960px;
+    width:100%
     margin:0 auto;
 }
 div{
     border: 1px solid rgb(15, 15, 15);
     padding:5px 15px;
-    width: auto;
+    width: ;
 }
 .header{
     border-radius: 10px 10px 0px 0px;
@@ -16,10 +16,11 @@ div{
     text-align: center;
 }
 .smth{
-    
-  display: inline-block;
- width: auto;
-box-sizing:border-box;
+ display: inline-block;
+ box-sizing:border-box;
+ padding:10PX ;
+ margin:0px;
+ 
 }
 .footer{
     text-align: center;
