@@ -1,6 +1,6 @@
 body{
     width:100%
-    margin:0 auto;
+    margin:auto;
 }
 div{
     border: 1px solid rgb(15, 15, 15);
@@ -17,10 +17,7 @@ div{
 }
 .smth{
  display: inline-block;
- box-sizing:border-box;
- padding:10PX ;
- margin:0px;
- 
+ padding:10PX;
 }
 .footer{
     text-align: center;
