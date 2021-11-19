@@ -13,7 +13,7 @@
                    <img src="../images/CSS.png">
                 </td>
                 <td class="smth2" rowspan="2" >
-                    Мой сайт - мой дизайн
+                   Мой сайт - мой дизайн
                 </td>
                 <td class="smth3">
                     Логин
@@ -26,7 +26,11 @@
             </tr>
             <tr>
                 <td class="smth5"colspan="3">
-                    Навигация
+                    <p>    
+                      <a href="../index.html">Главная страница</a>
+                       <a href="html_layout.html">верстка</a>
+                       <a href="JS program_layout.html">JS программирование</a>
+                    </p>
                 </td>
             </tr>
         </table>
@@ -35,71 +39,66 @@
                 <td class="smth6"rowspan="6">
                     <ul>
                         <li>
-                            <a href="../index.html">Главная страница</a>
+                            
                         </li>
                         <li>
-                            <a href="CSS_layout.html">CSS оформление</a>
+                           
                         </li>
                         <li>
-                            <a href="JS program_layout.html">JS программирование</a>
+                            
                         </li>
                     </ul>
                 </td>
                 <td class="smth7" colspan="2" rowspan="2">
-                    
-                    
-                    <p>
-                        CSS - это язык оформления HTML-документов.
-                         За более подробной информацией
-                        <a href="https://ru.wikipedia.org/wiki/CSS">сюда</a>. 
-                        Так как он является вспомогательным языком,
-                         то существует несколько основных способов его добавления на web-страницу:
-
-                        <ul>
-                            <li>
-                                Внешний &ltlink rel="stylesheet" href="style.css">
-                            </li>
-                            <li>
-                                Внутренний глобальный &ltstyle&gt&lt/style&gt
-                            </li>
-                             <li>
-                                Внутренний локальный &ltspan style="color: red"&gt&lt/span&gt
-                            </li>
-                        </ul>
-                        
+                <p>
+                    CSS - это язык оформления HTML-документов.
+                    За более подробной информацией
+                    <a href="https://ru.wikipedia.org/wiki/CSS">сюда</a>. 
+                    Так как он является вспомогательным языком,
+                    то существует несколько основных способов его добавления на web-страницу:
+                    <ul>
+                       <li>
+                         Внешний &ltlink rel="stylesheet" href="style.css">
+                        </li>
+                        <li>
+                         Внутренний глобальный &ltstyle&gt&lt/style&gt
+                        </li>
+                        <li>
+                         Внутренний локальный &ltspan style="color: red"&gt&lt/span&gt
+                        </li>
+                    </ul>
+                    </p>
                      Синтаксис языка выглядит следующим образом: сначала указывается 
                      изменяемый элемент с помощью <span style="color:red">селектора</span> , после этого в фигурных
                      скобках перечисляются через точку с запятой изменяемые свойства 
                      элемента (<span style="color:green">цвет, размер, расположение и т.д.</span>), затем напротив
-                     каждого свойства указывается значение (<span style="color:blue">red, left, 1px и т.д.</span>). Например:
-                           table  {
-                                          width: 80%;
-                                             border-color: white;
-                                                    border-style: groove;
-                                                    border-width: 5px;
-                                                }
-                                       
-                        В ситуации когда изменить необходимо только некоторые элементы,
-                         следует пользоваться указателями класса: когда одни и теже теги 
-                         принадлежат разным классам и оформляются по разному.
-                        <table class="header"></table>
-                        <table class="main"></table>
+                     каждого свойства указывается значение
+                      (<span style="color:blue">red, left, 1px и т.д.</span>). Например:
+                     <pre>
+                        <code>  
+                         <span style="color:red">table</span> {
+                             <span style="color:green">width</span>:<span style="color:blue"> 80%</span>
+                             <span style="color:green">border-color</span>:<span style="color:blue"> white</span>;
+                             <span style="color:green">border-style</span>:<span style="color:blue"> groove </span>;
+                             <span style="color:green">border-width</span>:<span style="color:blue"> 5px</span>;
+                         }
+                        </code>
+                    </pre>
+                </p>
+                    <p> В ситуации когда изменить необходимо только некоторые элементы,
+                     следует пользоваться указателями класса: когда одни и теже теги 
+                     принадлежат разным классам и оформляются по разному.
+                       <br> &lttable class="header"&gt&lt/table&gt
+                       <br>&lttable class="main"&gt&t/table&gt
                     </p>
                 </td>
-                
-            
-        </table>
+         </table>
         <table class="table3" border="1" width="100%">
             <tr>
                 <td class="smth8"colspan="5">
-                    Подвал
+                    В ожидании 13 сезона "Доктора Кто"
                 </td>   
             </tr>
-            
-           
-
-            
         </table>
     </body>
 </html>
-

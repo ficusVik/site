@@ -1,16 +1,25 @@
 table.table1{
-    background-color:rgb(91, 207, 243);
-    border-color:rgb(103, 106, 240);
+    background-color:rgb(214, 218, 218, 0.623);
+    border-color:rgb(123, 123, 129);
+    color:rgb(0, 0, 0)
 }
 table.table2{
-    background-color: rgb(91, 207, 243);
-    border-color: rgb(103, 106,240);
+    background-color:rgb(214, 218, 218, 0.623);
+    border-color: rgb(123, 123,129);
+    color:rgb(12, 12, 12)
 }
 table.table3{
-    background-color: rgb(91, 207, 243);
-    border-color: rgb(103,106,240);
+    background-color:rgb(214, 218, 218, 0.623);
+    color:rgb(0, 0, 0)
+    
 }
 body{
-    background-color: rgb(213, 209, 223);
-    border-color: rgb(103, 106, 240);
+    background:url(../images/whitewall.png);
+   
+    background-color: rgb(212, 212, 212);
+    
 }
+td.smth2{
+    color:rgb(0, 0, 0);
+    font-style: Italic;
+    font-family: fantastic;
