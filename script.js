@@ -7,13 +7,14 @@ let header = document.createElement("div")
 header.style.backgroundColor = "#4285F4"
 header.style.height = "200px"
 header.style.width = "1000px"
+header.style.margin = "20px"
 document.querySelector("body").append(header)
 
 let block1 = document.createElement("div")
 block1.style.backgroundColor = "#AB8A95"
 block1.style.height = "200px"
 block1.style.width = "1000px"
-
+block1.style.margin = "20px"
 document.querySelector("body").append(block1)
 
 let text = document.createElement('p')
