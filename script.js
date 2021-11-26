@@ -1,6 +1,5 @@
 // dd
 let body =document.querySelector("body")
-body.style.gap = "20px"
 body.style.background ="#292545"
 
 let header = document.createElement("div")
