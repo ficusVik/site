@@ -1,0 +1,15 @@
+body {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px 200px;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px;
+   
+}
+header{
+    grid-column: 1/9;
+    grid-row: 1/2;
+    border-radius: 10px 10px 0px 0px;
+    padding: 30px;
+    text-align: center;
+    border: 1px solid rgb(15, 15, 15);
+    background-color: rgb(151, 206, 198);
+}
